@@ -9,6 +9,9 @@ services:
     environment:
       - "TX_INFINITY_DEVELOPMENT=win"
       - "METRICS_ENABLED=true"
+      - "BRANCH_TO_CLONE=main"
+      - "API_DEF_GIT_URL=https://sp250779@github.com/sp250779/apitoolkittest.git"
+      - "TX_APITOOLKIT_GIT_PASSWORD=AP6pLc3qdUfNuJZLKd1PZss91RR"
     volumes:
     - .:/opt/tx-apitoolkit-service/app
   apitoolkit-ui:
